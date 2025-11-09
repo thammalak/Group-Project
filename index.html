@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LIMBUS COMPANY</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="80" tabindex="0">
+
+<nav id="mainNav" class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold d-flex align-items-center" href="#Home">
+      <span class="logo-dot me-2"></span>LIMBUS-COMPANY<span class="text-primary"> Market</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navContent">
+      <ul class="navbar-nav ms-auto align-items-lg-center">
+        <li class="nav-item"><a class="nav-link active" href="#Home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+        <li class="nav-item"><a class="nav-link" href="#products">Highlight</a></li>
+        <li class="nav-item"><a class="nav-link" href="ingredients.html">ingredients</a></li>
+        <li class="nav-item"><a class="nav-link" href="#plans">Plans</a></li>
+        <li class="nav-item"><a class="nav-link" href="#testimonials">Reviews</a></li>
+        <li class="nav-item"><a class="nav-link" href="#social">Contact Us</a></li>
+        <li class="nav-item ms-lg-3">
+          <a class="btn btn-primary btn-sm px-3" href="about.html">Our Team</a>
+        </li>
+  <a class="nav-link dropdown-toggle d-flex align-items-center gap-1"
+     href="#"
+     id="langDropdown"
+     role="button"
+     data-bs-toggle="dropdown"
+     aria-expanded="false">
+    <i class="bi bi-globe2"></i>
+    <span id="currentLang">TH</span>
+  </a>
+  <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="langDropdown">
+    <li><button class="dropdown-item lang-select" data-lang="TH">ไทย</button></li>
+    <li><button class="dropdown-item lang-select" data-lang="EN">English</button></li>
+    </ul>
+    </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header id="Home" class="hero-section">
+  <div class="container">
+    <div class="row align-items-center g-4">
+      <div class="col-lg-6">
+        <div class="badge bg-success-soft text-success mb-3">
+          <i class="bi bi-bag-check-fill me-1"></i> วัตถุดิบสด ส่งไว ค่าส่งเริ่มต้น 29 THB
+        </div>
+        <h1 class="hero-title fw-bold mb-3" data-i18n="hero-title">
+  สำหรับคนทำอาหาร<br class="d-none d-md-block">รวมวัตถุดิบเกรดร้านอาหารไว้ในที่เดียว
+</h1>
+
+<p class="lead text-secondary mb-3" data-i18n="hero-sub">
+  เลือกผัก เนื้อ ซีฟู้ด และเครื่องปรุงจากฟาร์มพันธมิตร ตรวจสอบย้อนกลับได้
+  สั่งง่าย เหมาะทั้งเชฟบ้านและร้านอาหารขนาดเล็ก
+</p>
+        <p class="small text-success mb-4">
+          ✔ ฟรีค่าส่งเมื่อมียอดสั่งซื้อรวมตั้งแต่ 500 THB ขึ้นไป
+        </p>
+        <div class="d-flex flex-column flex-sm-row gap-2 mb-3">
+          <a href="ingredients.html" class="btn btn-primary btn-lg px-4">
+            <i class="bi bi-cart-check me-1"></i> เลือกวัตถุดิบ
+          </a>
+          <a href="#features" class="btn btn-outline-primary btn-lg px-4">
+            ดูฟีเจอร์แอป
+          </a>
+        </div>
+        <div class="d-flex flex-wrap gap-3 hero-trust">
+          <div><i class="bi bi-patch-check-fill text-success me-1"></i>คัดซัพพลายเออร์คุณภาพ</div>
+          <div><i class="bi bi-truck me-1"></i>จัดส่งเช้า–เย็นตามเวลาที่เลือก</div>
+          <div><i class="bi bi-phone me-1"></i>สั่งซ้ำ 1 คลิกจากประวัติ</div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="hero-card">
+          <div class="d-flex justify-content-between align-items-center mb-2">
+            <div class="fw-semibold">ตัวอย่างตะกร้าร้าน "ครัวบ้านอิ่ม"</div>
+            <span class="badge bg-primary-subtle text-primary">Auto Re-Order</span>
+          </div>
+          <ul class="list-unstyled small mb-3">
+            <li>🥬 ผักสลัดออร์แกนิก 2 กิโล</li>
+            <li>🍗 อกไก่ลีน 5 กิโล</li>
+            <li>🐟 ปลาแซลมอนซาชิมิ 2 กิโล</li>
+            <li>🥚 ไข่ไก่แผงใหญ่ 2 แผง</li>
+          </ul>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="text-muted small">จัดส่งพรุ่งนี้ 06:30 น. · ค่าส่ง 0 THB </div>
+            <button class="btn btn-success btn-sm" type="button" data-bs-toggle="offcanvas" data-bs-target="#cartDrawer">
+              ดูตะกร้าของคุณ
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="features" class="section-pad bg-light">
+  <div class="container">
+    <h2 class="section-title text-center">ฟีเจอร์ที่ออกแบบตามแพลตฟอร์มยอดนิยม</h2>
+    <p class="section-subtitle text-center mb-5">
+    </p>
+    <div class="row g-4">
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="feature-card h-100">
+          <div class="icon-wrap"><i class="bi bi-qr-code-scan"></i></div>
+          <h5>สแกนสต็อกอัตโนมัติ</h5>
+          <p>ลดการจดมือด้วยการสแกนกล่องวัตถุดิบเข้าระบบ</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="feature-card h-100">
+          <div class="icon-wrap"><i class="bi bi-clock-history"></i></div>
+          <h5>สั่งซ้ำในคลิกเดียว</h5>
+          <p>เรียกดูประวัติออเดอร์และสั่งซ้ำได้ทันที</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="feature-card h-100">
+          <div class="icon-wrap"><i class="bi bi-geo-alt-fill"></i></div>
+          <h5>ติดตามสถานะเรียลไทม์</h5>
+          <p>แสดงตำแหน่งคนส่งของและเวลาโดยประมาณ</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="feature-card h-100">
+          <div class="icon-wrap"><i class="bi bi-award-fill"></i></div>
+          <h5>มาตรฐานความสด</h5>
+          <p>โชว์ใบรับรองและแหล่งที่มาของวัตถุดิบอย่างโปร่งใส</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="products" class="section-pad">
+  <div class="container">
+    <h2 class="section-title text-center">สินค้าแนะนำประจำสัปดาห์</h2>
+    <p class="section-subtitle text-center mb-4">
+    </p>
+    <div class="row g-4">
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="ingredient-card h-100">
+          <img src="jpg/Or1.jpg"
+               alt="ชุดผักสลัดฟาร์มออร์แกนิค" class="img-fluid rounded mb-2 product-img">
+          <h6>ชุดผักสลัดฟาร์มออร์แกนิค</h6>
+          <p class="small text-muted mb-1">สำหรับ 3–4 ที่ · ส่งเย็น</p>
+          <div class="fw-bold text-primary mb-2">159 THB</div>
+          <!--<button class="btn btn-outline-primary btn-sm w-100 add-to-cart"
+                  data-name="ชุดผักสลัดฟาร์มออร์แกนิก"
+                  data-price="159">
+            เพิ่มในตะกร้า
+          </button>-->
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="ingredient-card h-100">
+          <img src="jpg/Or2.png"
+               alt="อกไก่คลีนแพ็คสูญญากาศ" class="img-fluid rounded mb-2 product-img">
+          <h6>อกไก่คลีนแพ็คสูญญากาศ</h6>
+          <p class="small text-muted mb-1">1 กก. · แหล่งผลิตตรวจสอบได้</p>
+          <div class="fw-bold text-primary mb-2">129 THB</div>
+          <!--<button class="btn btn-outline-primary btn-sm w-100 add-to-cart"
+                  data-name="อกไก่ลีนแพ็กสูญญากาศ"
+                  data-price="129">
+            เพิ่มในตะกร้า
+          </button>-->
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="ingredient-card h-100">
+          <img src="jpg/Or3.jpg"
+               alt="ปลาแซลมอนซาชิมิ" class="img-fluid rounded mb-2 product-img">
+          <h6>ปลาแซลมอนซาชิมิ</h6>
+          <p class="small text-muted mb-1">500 กรัม · แช่เย็นควบคุมอุณหภูมิ</p>
+          <div class="fw-bold text-primary mb-2">209 THB</div>
+          <!--<button class="btn btn-outline-primary btn-sm w-100 add-to-cart"
+                  data-name="ปลาแซลมอนซาชิมิ"
+                  data-price="289">
+            เพิ่มในตะกร้า
+          </button>-->
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="ingredient-card h-100">
+          <img src="jpg/Or4.jpg"
+               alt="เซ็ตเครื่องปรุงเอเชียน" class="img-fluid rounded mb-2 product-img">
+          <h6>เซ็ตเครื่องปรุงเอเชียน</h6>
+          <p class="small text-muted mb-1">ซีอิ๊ว ซอสหอย น้ำปลา ฯลฯ</p>
+          <div class="fw-bold text-primary mb-2">199 THB</div>
+          <!-- <button class="btn btn-outline-primary btn-sm w-100 add-to-cart"
+                  data-name="เซ็ตเครื่องปรุงเอเชียน"
+                  data-price="199">
+            เพิ่มในตะกร้า
+          </button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="plans" class="section-pad bg-light">
+  <div class="container">
+    <h2 class="section-title text-center">ชุดวัตถุดิบ & แพ็กเกจสำหรับลูกค้า</h2>
+    <p class="section-subtitle text-center mb-5">
+    </p>
+    <div class="row g-4 justify-content-center">
+      <div class="col-12 col-md-4">
+        <div class="plan-card h-100">
+          <h5>Home Cook Box</h5>
+          <p class="text-muted small">เหมาะสำหรับครอบครัว 2–3 คน</p>
+          <div class="price-tag">399 THB / ครั้ง</div>
+          <ul class="list-unstyled small mb-3">
+            <li>✅ ผักสดรวม 5 รายการ</li>
+            <li>✅ เนื้อสัตว์ 2 รายการ</li>
+            <li>✅ เครื่องปรุงพื้นฐาน</li>
+            <li>🚚 ค่าส่งเริ่มต้น 29 THB</li>
+          </ul>
+          <button class="btn btn-outline-primary w-100 btn-sm">ดูรายละเอียด</button>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="plan-card h-100 plan-featured">
+          <div class="badge bg-primary text-white mb-2">ยอดนิยม</div>
+          <h5>Pro Kitchen Plan</h5>
+          <p class="text-muted small">สำหรับคาเฟ่/ร้านอาหารเล็ก</p>
+          <div class="price-tag">1,290 THB / สัปดาห์</div>
+          <ul class="list-unstyled small mb-3">
+            <li>✅ จัดชุดวัตถุดิบตามเมนูร้าน</li>
+            <li>✅ ส่ง 2–3 รอบต่อสัปดาห์</li>
+            <li>✅ รายงานต้นทุนต่อเมนู</li>
+            <li>🚚 ฟรีค่าส่งทุกออเดอร์ในแผน</li>
+          </ul>
+          <button class="btn btn-primary w-100 btn-sm" id="checkBtn" type="button">เริ่มทดลองใช้ 7 วัน</button>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="plan-card h-100">
+          <h5>Custom Enterprise</h5>
+          <p class="text-muted small">สำหรับคลาวด์คิทเช่น / โรงแรม</p>
+          <div class="price-tag">ปรึกษาทีมเซลส์</div>
+          <ul class="list-unstyled small mb-3">
+            <li>✅ เชื่อมต่อระบบ POS / ERP</li>
+            <li>✅ ดีลราคาส่งเฉพาะธุรกิจ</li>
+            <li>🚚 โครงสร้างค่าส่งตามปริมาณจริง</li>
+          </ul>
+          <a href="https://www.pim.ac.th" class="btn btn-primary w-100 btn-sm">
+            <i class="bi bi-cart-check me-1"></i>ติดต่อทีม LIMBUS-COMPANYMarket
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="testimonials" class="section-pad">
+  <div class="container">
+    <h2 class="section-title text-center">เสียงจากผู้ใช้งานจริง</h2>
+    <p class="section-subtitle text-center mb-4">
+    </p>
+    <div class="row g-4">
+      <div class="col-12 col-md-4">
+        <div class="testimonial-card h-100">
+          <p>"จัดการสต็อกง่ายขึ้น ของสดถึงร้านตรงเวลา มีแจ้งเตือนออเดอร์ครบ"</p>
+          <div class="fw-semibold">เชฟมินท์ · ร้านอาหารโฮมเมด</div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="testimonial-card h-100">
+          <p>"ตะกร้าสินค้าดูง่าย ใส่ของหลายชิ้นแล้วยังอ่านสบายตา"</p>
+          <div class="fw-semibold">คุณโอม · เจ้าของคาเฟ่</div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="testimonial-card h-100">
+          <p>"เหมาะใช้เป็นต้นแบบ Pitch Startup เลย ทั้งดีไซน์และฟีเจอร์ครบ"</p>
+          <div class="fw-semibold">ทีมพัฒนา FreshKitchen</div>
+        </div>
+      </div>
+  </div>
+</section>
+
+<section id="social" class="section-pad bg-dark text-white">
+  <div class="container text-center">
+    <h2 class="section-title text-white">ติดตาม LIMBUS-COMPANY Market</h2>
+    <p class="section-subtitle text-light mb-4">
+    </p>
+    <div class="d-flex flex-wrap gap-3 justify-content-center mb-4">
+      <a href="https://www.pim.ac.th" class="social-pill"><i class="bi bi-facebook"></i> Facebook Page</a>
+      <a href="https://www.pim.ac.th" class="social-pill"><i class="bi bi-instagram"></i> Instagram</a>
+      <a href="https://www.pim.ac.th" class="social-pill"><i class="bi bi-line"></i> LINE Official</a>
+      <a href="https://www.pim.ac.th" target="_blank" class="social-pill"><i class="bi bi-building"></i> PIM</a>
+      <a href="Testimonial/testimonial.html" target="_blank" class="social-pill"><i class="bi bi-building"></i> ติดต่อสมัคร</a>
+    </div>
+    <p class="small mb-0">© 2025 LIMBUS-COMPANY Market · Group Project Startup</p>
+  </div>
+</section>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="cartDrawer">
+  <div class="offcanvas-header border-bottom">
+    <h5 class="offcanvas-title">Your Cart</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body d-flex flex-column">
+    <div id="cartItems" class="flex-grow-1 small text-secondary py-2">
+      Your cart is empty.
+    </div>
+    <div class="border-top pt-3">
+      <div class="d-flex justify-content-between align-items-center mb-1">
+        <span class="fw-semibold">Subtotal</span>
+        <span class="fw-semibold"><span id="cartTotal">0</span> THB</span>
+      </div>
+      <p class="small text-muted mb-2">
+        🚚 ฟรีค่าส่งเมื่อยอดถึง 500 THB
+      </p>
+      <button class="btn btn-dark w-100" id="checkoutBtn" type="button">
+        Proceed to Checkout
+      </button>
+      <p class="small text-muted mt-2 mb-0">
+      </p>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
